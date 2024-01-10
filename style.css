@@ -17,31 +17,45 @@ img{
 
 .container{
     max-width: 1280px;
-    width: 80%;
     margin: 0 auto;
     background-color: #FAFAF9;
     padding: 150px 0px;
     font-family: 'Sora', sans-serif;
+    /* border: 1px solid blue; */
 }
 
 body{
     background-color: #CBD5E1;
 }
 
+p, li{
+    color: #52525A;
+}
+
+.heading{
+    color: #18181B;
+}
+
+
 /* review */
 
 .main-section{
     margin: 200px 0;
+    /* border: 1px solid red; */
+    
 }
 
 .reviewers{
     width: 90%;
     margin: 0 auto;
     display: flex;
+    gap: 50px;
+    /* border: 1px solid palevioletred; */
 }
 
 .review{
     width: 50%;
+    /* border: 1px solid black; */
 }
 .review h1{
     font-size: 2.25rem;
@@ -62,6 +76,10 @@ body{
     gap: 10px;
 }
 
+.review ul li :last-child{
+    margin-bottom: 0;
+}
+
 .review span img{
     width: 30px;
     margin-bottom: 10px;
@@ -75,15 +93,54 @@ body{
 
 .testimonial{
     width: 50%;
+    /* border: 1px solid salmon; */
 }
 
-.google{
+.google,
+.meta{
     width: 50%;
     display: flex;
     gap: 10px;
-    background-color:#fff;
+    align-items: center;
 }
 
-.google :first-child{
+.google :first-child,
+.meta :first-child{
     width: 100px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.testimonial-1,
+.testimonial-2{
+    background-color:#fff;
+    box-shadow: 0 0 100px -10px #D4D4D8;
+    border-radius: 15px;
+    padding:20px 40px 50px;
+    width: 50%;
+    height: 50%;
+}
+
+.test-1{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid blueviolet; */
+    height: 50%;
+}
+
+.test-2{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blueviolet; */
+    height: 50%;
+}
+
+.testimonial h4{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.testimonial P{
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
