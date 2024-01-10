@@ -37,8 +37,12 @@ body{
 .reviewers{
     width: 90%;
     margin: 0 auto;
+    display: flex;
 }
 
+.review{
+    width: 50%;
+}
 .review h1{
     font-size: 2.25rem;
     margin-bottom: 20px;
@@ -61,8 +65,25 @@ body{
 .review span img{
     width: 30px;
     margin-bottom: 10px;
-    border: 1px solid gold;
+    border: 2px solid rgb(255, 217, 0);
     border-radius: 50%;
-    padding: 5px;
-    background-color:rgba(255, 183, 0, 0.253);
+    padding: 7px;
+    background-color:rgba(255, 183, 0, 0.274);
+}
+
+/* testimonial */
+
+.testimonial{
+    width: 50%;
+}
+
+.google{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    background-color:#fff;
+}
+
+.google :first-child{
+    width: 100px;
 }
